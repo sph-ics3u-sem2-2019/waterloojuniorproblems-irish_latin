@@ -1,9 +1,9 @@
-import java.util.Scanner;
+++++++++++++++++++++++++++++++++++++++++++++++++++++++import java.util.Scanner;
 public class ShiftySum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner in=new Scanner(System.in);
+		Scanner in =new Scanner(System.in);
 		/*
 		 * Follow the instructions in Junior Problem 2.pdf.
 		 * Use the following data to test your program and record your answers
@@ -23,6 +23,16 @@ public class ShiftySum {
 		 * 14) 2503,1
 		 * 15) 7868,2
 		 */
+		System.out.println("Enter the base");
+		int base=in.nextInt();
+		System.out.println("Enter the exponent");
+		int exp=in.nextInt();
+		while (exp>=0) {
+			System.out.println("exp="+exp);
+			exp--;
+		}
 	}
+		
+	
 
 }
